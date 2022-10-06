@@ -3,7 +3,7 @@ class CreateHeroPowers < ActiveRecord::Migration[7.0]
     create_table :hero_powers do |t|
       t.string :strength
       t.references :hero, null: false, foreign_key: true
-      t.references :powers, null: false, foreign_key: true
+      t.references :power, null: false, foreign_key: true
 
       t.timestamps
     end
