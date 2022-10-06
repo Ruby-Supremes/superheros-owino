@@ -3,9 +3,9 @@
 one:
   strength: MyString
   hero: one
-  powers: one
+  power: one
 
 two:
   strength: MyString
   hero: two
-  powers: two
+  power: two
